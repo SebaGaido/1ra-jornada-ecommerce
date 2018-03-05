@@ -13,7 +13,7 @@ Index:
 
 .link,body{position:relative;font-family:'Cabin', sans-serif;}
 .header .nav-item-child,.link,a,body,em,h1,h2,h3,h4,h5,h6,li,li a,p,span{font-family:'Cabin', sans-serif;}
-body,html,html a{-webkit-font-smoothing:antialiased}
+body,html,html a{-webkit-font-smoothing:antialiased;}
 .btn-theme,
 p{line-height:1.4}
 .btn-theme.active.focus,.btn-theme.active:focus,.btn-theme.focus,.btn-theme:active.focus,.btn-theme:active:focus,.btn-theme:focus,:active,:focus,a,a:active,a:focus,a:hover{outline:0}
@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{font-weight:bolder;color:#515769;line-height:1.2;margin:0 0 15
 h1>a,h2>a,h3>a,h4>a,h5>a,h6>a{color:#fd9827}
 h1>a:hover,h2>a:hover,h3>a:hover,h4>a:hover,h5>a:hover,h6>a:hover{color:#fd9827;text-decoration:none}
 h1{font-size:40px}
-h2{font-size: 30px;
+h2{font-size: 2em;
 	line-height: 1.4em;
 	letter-spacing: -0.04em;
 	margin-top: 18px;}
@@ -209,10 +209,12 @@ hr.vertical {
 .color-link{color:#81848f!important}
 .color-link-hover{color:#fd9827!important}
 .color-sky-light{color:#fafafa!important}
+.bg-inscripcion {background-repeat: no-repeat; width: 100%; margin: 0 auto;}
 .bg-color-base{background:#fd9827 !important;}
 .bg-color-white{background:#fff!important}
 .bg-color-blue{background: #131a22;}
 .bg-color-skyblue {background-color: #3cc6f3;}
+.bg-color-skyblue-transparent {background-color: #b4d6f7;}
 .bg-color-black{background: #000;}
 .bg-color-orange {background-image: linear-gradient(to bottom, #fd9827, #adbb33, #52ca7f, #00cdca, #3cc6f3);}
 .bg-color-gradient-1{background-image: linear-gradient(to top, #180127, #23093a, #320a4d, #420760, #550073);}
@@ -261,7 +263,7 @@ hr.vertical {
 }
 .img-half-right{
 	float: right;
-	margin-top: -520px;
+	margin-top: -845px;
 	margin-right: -110px;
 	width: 700px;
 	opacity: 0.7;
@@ -453,15 +455,14 @@ hr.vertical {
 	.big-title {
 		font-size: 2em;
 	}
-	h2 {
-		font-size: 1.2em;
-	}
+	h1 {font-size: 30px;}
+	h2 {font-size: 1em;}
 	.bottom-less{
 		margin-bottom: -40px;
 	}
 	.img-half-right{
 		float: right;
-		margin-top: 680px;
+		margin-top: 1300px;
 		margin-bottom: -240px;
 		margin-right: 30px;
 		width: 100%;
@@ -503,6 +504,7 @@ hr.vertical {
 	.work {
 		text-align: center;
 	}
+	.work .work-popup-content {top: 30%; margin-top: 300px;}
 	.separator {
 		height: 200px;
 		background-color: #fff;
