@@ -450,6 +450,10 @@ hr.vertical {
 	.work {
 		text-align: center;
 	}
+	.work .work-popup-content {
+		top: 30%;
+		margin-top: 300px;
+	}
 }
 
 @media (max-width:480px){
